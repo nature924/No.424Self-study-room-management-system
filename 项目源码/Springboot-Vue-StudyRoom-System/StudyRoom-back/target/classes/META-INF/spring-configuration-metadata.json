@@ -1,0 +1,259 @@
+{
+  "groups": [
+    {
+      "name": "applet.jwt",
+      "type": "com.selfstudy.modules.applet.utils.JwtUtils",
+      "sourceType": "com.selfstudy.modules.applet.utils.JwtUtils"
+    },
+    {
+      "name": "dynamic",
+      "type": "com.selfstudy.datasource.properties.DynamicDataSourceProperties",
+      "sourceType": "com.selfstudy.datasource.properties.DynamicDataSourceProperties"
+    },
+    {
+      "name": "message",
+      "type": "com.selfstudy.config.MessageProperties",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "spring.datasource.druid",
+      "type": "com.selfstudy.datasource.properties.DataSourceProperties",
+      "sourceType": "com.selfstudy.datasource.config.DynamicDataSourceConfig",
+      "sourceMethod": "public com.selfstudy.datasource.properties.DataSourceProperties dataSourceProperties() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "applet.jwt.expire",
+      "type": "java.lang.Long",
+      "sourceType": "com.selfstudy.modules.applet.utils.JwtUtils"
+    },
+    {
+      "name": "applet.jwt.header",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.modules.applet.utils.JwtUtils"
+    },
+    {
+      "name": "applet.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.modules.applet.utils.JwtUtils"
+    },
+    {
+      "name": "dynamic.datasource",
+      "type": "java.util.Map<java.lang.String,com.selfstudy.datasource.properties.DataSourceProperties>",
+      "sourceType": "com.selfstudy.datasource.properties.DynamicDataSourceProperties"
+    },
+    {
+      "name": "message.bas-device-code-exists",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.bas-site-code-exists",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.code-fail",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.data-center-exist",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.data-exist",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.department-exists-user",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.energy-item-exist",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.form-delete-error",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.form-mount-error",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.form-save-error",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.form-update-error",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.import-error",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.label-exists-use",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.label-name-exists",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.message-get-error",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.user-account-exist",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.user-already-exist",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.user-blocked",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.user-blocked-error",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.user-not-competence",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.user-not-exists",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "message.user-password-delete",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.config.MessageProperties"
+    },
+    {
+      "name": "spring.datasource.druid.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.filters",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.initial-size",
+      "type": "java.lang.Integer",
+      "description": "Druid默认参数",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.max-active",
+      "type": "java.lang.Integer",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.max-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.max-open-prepared-statements",
+      "type": "java.lang.Integer",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.max-wait",
+      "type": "java.lang.Long",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.min-evictable-idle-time-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.min-idle",
+      "type": "java.lang.Integer",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.password",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.pool-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.share-prepared-statements",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.test-on-borrow",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.test-on-return",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.test-while-idle",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.time-between-eviction-runs-millis",
+      "type": "java.lang.Long",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.url",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.username",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.validation-query",
+      "type": "java.lang.String",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    },
+    {
+      "name": "spring.datasource.druid.validation-query-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "com.selfstudy.datasource.properties.DataSourceProperties"
+    }
+  ],
+  "hints": []
+}
